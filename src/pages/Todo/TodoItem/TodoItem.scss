@@ -1,0 +1,16 @@
+#todo-container {
+  .todo-item {
+    // width: min(70vw, 700px);
+    width: 70vw;
+    max-width: 700px;
+    background-color: #ec5959;
+    // border-radius: 1rem;
+    border-radius: 1rem 1.9rem 0.4rem 1.9rem;
+    color: #242424;
+    padding: 1.25rem;
+  }
+
+  .completed {
+    opacity: 0.8;
+  }
+}
