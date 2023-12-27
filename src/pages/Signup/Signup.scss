@@ -1,0 +1,45 @@
+$main-color: #dcb9ff;
+
+#form-container {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: $main-color;
+     padding: 3.25rem;
+
+     .form-submit {
+          width: 50%;
+          background-color: $main-color;
+          border-radius: 0.3125rem;
+          color: white;
+          cursor: pointer;
+          padding: 0.625rem;
+          &:disabled {
+               opacity: 0.5;
+               cursor: default;
+          }
+     }
+
+     ul {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.25rem;
+          width: 100%;
+          font-size: 0.75rem;
+     }
+
+     li {
+          color: #aaa;
+          text-align: left;
+     }
+
+     .valid {
+          color: #202020;
+          span {
+               color: #2fe65c;
+          }
+     }
+}
