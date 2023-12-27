@@ -10,4 +10,31 @@
   h1 {
     margin-bottom: 1.875rem;
   }
+
+  .pixed-button {
+    position: fixed;
+    bottom: 0.625rem;
+    right: 0.625rem;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 12px;
+    font-size: 1.75rem;
+    padding: 0.2rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    &:hover {
+      background-color: #fff4a0;
+    }
+    &:active {
+      background-color: #fdea72;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
 }

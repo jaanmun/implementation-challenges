@@ -3,6 +3,7 @@ import useTodos from '../../hooks/useTodos';
 import TodoItem from './TodoItem/TodoItem';
 import './Todo.scss';
 import Loader from '../../components/ui/Loader/Loader';
+import Layout from './../../layout/Layout';
 
 const Todo = () => {
   const [pageNum, setPageNum] = useState(1);
@@ -39,15 +40,19 @@ const Todo = () => {
     return <TodoItem key={todo.id} todo={todo} />;
   });
 
+  const goToTop = () => window.scrollTo(0, 0);
+
   return (
-    <div id="todo-container">
-      <h1>Todo List - Infinite Scrolling</h1>
-      {content}
-      {isLoading && <Loader />}
-      <p className="center">
-        <a href="#top">Back to Top ⬆</a>
-      </p>
-    </div>
+    <Layout>
+      <div id="todo-container">
+        <h1>Todo List - Infinite Scrolling</h1>
+        {content}
+        {isLoading && <Loader />}
+        <p className="pixed-button" onClick={() => goToTop()}>
+          ⬆
+        </p>
+      </div>
+    </Layout>
   );
 };
 
