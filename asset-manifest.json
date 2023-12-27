@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jaanmun/implementation-challenges/static/css/main.eb0349c7.css",
-    "main.js": "/jaanmun/implementation-challenges/static/js/main.19a22803.js",
-    "static/js/787.2e40c4cb.chunk.js": "/jaanmun/implementation-challenges/static/js/787.2e40c4cb.chunk.js",
-    "index.html": "/jaanmun/implementation-challenges/index.html",
-    "main.eb0349c7.css.map": "/jaanmun/implementation-challenges/static/css/main.eb0349c7.css.map",
-    "main.19a22803.js.map": "/jaanmun/implementation-challenges/static/js/main.19a22803.js.map",
-    "787.2e40c4cb.chunk.js.map": "/jaanmun/implementation-challenges/static/js/787.2e40c4cb.chunk.js.map"
+    "main.css": "/implementation-challenges/static/css/main.eb0349c7.css",
+    "main.js": "/implementation-challenges/static/js/main.8de71172.js",
+    "static/js/787.2e40c4cb.chunk.js": "/implementation-challenges/static/js/787.2e40c4cb.chunk.js",
+    "index.html": "/implementation-challenges/index.html",
+    "main.eb0349c7.css.map": "/implementation-challenges/static/css/main.eb0349c7.css.map",
+    "main.8de71172.js.map": "/implementation-challenges/static/js/main.8de71172.js.map",
+    "787.2e40c4cb.chunk.js.map": "/implementation-challenges/static/js/787.2e40c4cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb0349c7.css",
-    "static/js/main.19a22803.js"
+    "static/js/main.8de71172.js"
   ]
 }
